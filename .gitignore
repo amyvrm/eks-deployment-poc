@@ -1,0 +1,19 @@
+.idea
+iac_src/terraform.tfstate
+iac_src/terraform.tfstate.backup
+iac_src/.terraform.lock.hcl
+hostname.txt
+agent.json
+ec2.json
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+.env
+.env.*
+*secret*
+*.crt
+*.cer
